@@ -1,3 +1,11 @@
-include "sdt.h"
+#include <stdio.h>
+#include "sdt.h"
 
-main ()
+main () {
+
+int a,b;
+
+printf("Введите, пожалуйста, два числа:");
+scanf("%d%d",&a,&b);
+
+}
